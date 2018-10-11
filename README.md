@@ -1,2 +1,0 @@
-# stereogram
-Single Image Stereograms
