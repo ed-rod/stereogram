@@ -13,6 +13,21 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
+  
+  <repositories>
+    <repository>
+      <id>personal</id>
+      <name>AWS Nexus</name>
+      <url>http://ec2-18-188-104-82.us-east-2.compute.amazonaws.com:8081/nexus/content/groups/public/</url>
+    </repository>
+  </repositories>
+  
+  <distributionManagement>
+    <repository>
+      <id>releases</id>
+      <url>http://ec2-18-188-104-82.us-east-2.compute.amazonaws.com:8081/nexus/content/repositories/releases</url>
+    </repository>
+  </distributionManagement>
 
   <dependencies>
     <dependency>
