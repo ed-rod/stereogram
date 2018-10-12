@@ -16,7 +16,7 @@
   
   <repositories>
     <repository>
-      <id>personal</id>
+      <id>aws-public</id>
       <name>AWS Nexus</name>
       <url>http://ec2-18-188-104-82.us-east-2.compute.amazonaws.com:8081/nexus/content/groups/public/</url>
     </repository>
@@ -24,7 +24,7 @@
   
   <distributionManagement>
     <repository>
-      <id>releases</id>
+      <id>personal</id>
       <url>http://ec2-18-188-104-82.us-east-2.compute.amazonaws.com:8081/nexus/content/repositories/releases</url>
     </repository>
   </distributionManagement>
